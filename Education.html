@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سيرتي الذاتية</title>
+
+    <!-- font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/hover.css">    
+     <link rel="stylesheet" href="css/animate.css"> 
+<!-- يقوم بعمل انميشان عبر wow للكلمات والوسومات المرادة-->
+     <link rel="stylesheet" href="css/defult_theme.css">
+   <!--       <link rel="stylesheet" href="css/prpear_theme.css">
+    <!-- JQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation start
+
+
+    <!-- header section starts  -->
+
+    <header>
+
+    <style>
+        #menu-barr {
+            font-size: 24px; /* حجم الأيقونة */
+            color: #333; /* لون الأيقونة */
+            cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الأيقونة */
+        }
+    </style>
+
+
+
+
+
+
+
+
+        <div class="header-2">
+<img src="images/ala.png" alt="الصورة الشخصية مصغره" class="profile-icon">
+           
+
+  
+        <a href="#" id="class="logo">
+     
+        ALAOi</a>
+            <br>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+
+        </div>
+
+        <div class="header-3">
+
+            <div id="menu-bar" class="fas  fa-bars  "></div>
+
+            <nav class="navbar">
+                <a href="index.html">الصفحة الرئيسية </a>
+                <a href="cv.html">سيرتي الذاتية باختصار   </a>
+                <a href="Education.html">التعليم</a>
+                <a href="Experience.html">الخبرات</a>
+                <a href="Projects.html">مشاريعي</a>
+                <a href="Skills.html">المهارات</a>
+                   <a href="about.html">About Us</a>       
+                <a href="contact.html">التواصل</a>
+            </nav>
+
+
+
+
+
+ 
+            <style>
+            .profile-icon {
+            width: 50px; /* حجم الصورة */
+            height: 50px; /* حجم الصورة */
+            border-radius: 50%; /* لجعل الصورة دائرية */
+            object-fit: cover; /* لتغطية الصورة بالكامل */
+            border: 2px solid #ddd; /* إطار للصورة */
+            display: block; /* لجعل الصورة كتلة */
+            margin: 0 auto; /* لتوسيط الصورة */
+            }
+            </style>
+
+            <div class="icons">
+            
+            <img src="images/ala.jpg" alt="الصورة الشخصية مصغره" class="profile-icon">
+            
+
+
+            
+
+
+
+
+
+         </div>
+        </div>
+
+    </header>
+
+
+    <!-- Hero section ends from here -->
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+
+        #features {
+            margin: 20px 0;
+        
+        }
+        .fea-base {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .fea-box {
+
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 30%;
+            cursor: pointer;
+            transition: box-shadow 0.3s;
+        }
+        .fea-box:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .hidden-content {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            background-color: #e7f3fe;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+               text-align: start;
+        }
+        img{
+        width: 60px; /* حجم الصورة */
+        height: 50px; /* حجم الصورة */
+        
+        }
+    </style>
+
+
+
+<section id="features">
+    <h1>المؤهلات التعليمية</h1>
+    <p>
+جميع  المؤهلات الدراسية التي تم استكمالها 
+    </p>
+
+    <div class="fea-base" style="text-align:center;">
+        <div class="fea-box"styel="text-align:center;" onclick="toggleContent('content1')">
+                <img src="images/ala.png" alt="Scholarship" />
+            <h3>بكلاريوس علوم حاسوب</h3>
+
+           
+            <p style="color:#f34;">اضفط  لعرض المحتوى كامل </p>
+            <div class="hidden-content" id="content1">
+                <img src="img/un.jpeg" alt="Scholarship" />
+                <p>الجمهورية اليمنية جامعة تعز كلية العلوم التطبيقية قسم علوم الحاسوب </p>
+                <p>التاريخ :٢٠٢٢/٢٠٢١</p>
+            </div>
+        </div>
+
+        <div class="fea-box" onclick="toggleContent('content2')">
+            <i class="fa-solid fa-book-bookmark"></i>
+            <h3>جرافكس </h3>
+          
+                        <p style="color:#f34;">اضفط  لعرض المحتوى كامل </p>
+            <div class="hidden-content" id="content2">
+             <img src="img/a.jpeg" alt="Scholarship" />
+                <p>الجمهورية اليمنية تعز اكادمية الاعلام العربي تعز </p>
+                <p>تاريخ: ٢٠٢٣/٢٠٢٢</p>
+            </div>
+        </div>
+
+        <div class="fea-box" onclick="toggleContent('content3')">
+            <i class="fas fa-award"></i>
+            <h3>ثانوية عامة (علمي)</h3>
+         
+                        <p style="color:#f34;">اضفط  لعرض المحتوى كامل </p>
+            <div class="hidden-content" id="content3">
+                <img src="img/p.png" alt="Scholarship" />
+                <p>ثانوية عامه الجمهورية اليمنية تعز صبر الموادم مجمع الشهيد محمد علي عثمام </p>
+                <p>تاريخ: ٢٠١٥/٢٠١٦</p>
+            </div>
+        </div>
+<!--
+        <div class="fea-box" onclick="toggleContent('content4')">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Programming Bootcamp</h3>
+            <p>One make creepeth, man bearing theira firmament won't great heaven</p>
+                     <p style="color:#f34;">اضفط  لعرض المحتوى كامل </p>   
+            <div class="hidden-content" id="content4">
+                <img src="https://via.placeholder.com/150" alt="Bootcamp" />
+                <p>وصف خاص بمعسكر البرمجة.</p>
+                <p>تاريخ: 2024-04-01</p>
+            </div>
+        </div>
+        -->
+    </div>
+</section>
+
+<script>
+    function toggleContent(contentId) {
+        const content = document.getElementById(contentId);
+        const allContents = document.querySelectorAll('.hidden-content');
+        
+        // إخفاء جميع المحتويات
+        allContents.forEach((item) => {
+            if (item !== content) {
+                item.style.display = 'none';
+            }
+        });
+        
+        // تبديل عرض المحتوى المطلوب
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+</script>
+
+
+
+
+    <!-- Trust section starts from here -->
+    <section id="trust">
+
+        <div class="trust-img">
+
+        </div>
+    </section>
+    <!-- Trust section ends from here -->
+
+
+<!-- يبدأ قسم التذييل من هنا -->
+<footer>
+    <div class="footer-col">
+        <h3>أفضل اداء</h3>
+        <li>إدارة السمعة</li>
+        <li>الأدوات  المتقدمة</li>
+        <li>مواقع الكترونية </li>
+        <li>خدمة التسويق في الموقع </li>
+    </div>
+
+    <div class="footer-col">
+        <h3>الأدوات  الذكية</h3>
+        <li>وظائف</li>
+        <li>خدمة ادارية</li>
+        <li>متاجر الكترونية</li>
+        <li>إدارة المحتوى </li>
+    </div>
+
+    <div class="footer-col">
+        <h3>الأدوات البرمجية </h3>
+        <li>مواقع شخصية</li>
+        <li>إدارة المشاريع</li>
+        <li>مواقع خدمية </li>
+        <li>خدمة  ما بعد التسليم </li>
+    </div>
+
+    <div class="footer-col">
+        <h3>أدلة</h3>
+        <li>البحث</li>
+        <li>خبراء</li>
+        <li>موقع شخصي </li>
+        <li>خدمة التسويق</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>النشرة الإخبارية</h3>
+        <p>يمكنك الوثوق بنا. نحن  نعرض جزئية من اعمالنا </p>
+
+        <div class="subscribe">
+            <input type="email" placeholder="عنوان بريدك الإلكتروني">
+            <a href="#" class="yellow">اشترك</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>
+  حقوق الطبع والنشر 2024 @ تم تصميم هذه الموقع من قبل ALAOi لغرض شخصي 
+       <a href="#" target="_blank">ALAOi</a>
+        </p>
+        <div class="pro-links">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </div>
+</footer>
+
+    <!-- Footer section ends from here -->
+
+
+
+     <script src="js/html5shiv.min.js"></script>
+     <script src="js/respond.min.js"></script>
+     
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.js"></script>
+     <script src="js/script.js"></script>
+     <!--مكتبه خاصه بلانميشان -->
+     <script src="js/WOW.min.js"></script>
+     <script >new WOW().init();</script>
+     <!--مكتبه خاصه بلسكرول الذي على يمين الشاشه شىيط التمرير -->
+     <script src="js/jquery.nicescroll.min.js"></script>
+     
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+    <!-- Footer section ends from here -->
+
+    <script>
+        // Show menu links on burger click
+        $('#menu-btn').click(function() {
+            $('nav .navigation ul').addClass('active')
+        });
+
+        // Hide navbar on click function
+        $('#menu-close').click(function() {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>

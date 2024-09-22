@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل دخول</title>
+
+    <!-- font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/hover.css">    
+     <link rel="stylesheet" href="css/animate.css"> 
+<!-- يقوم بعمل انميشان عبر wow للكلمات والوسومات المرادة-->
+      <link rel="stylesheet" href="about.css">
+     <link rel="stylesheet" href="css/defult_theme.css">
+   <!--       <link rel="stylesheet" href="css/prpear_theme.css">
+    <!-- JQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation start
+    <nav>
+       <img src="img/ala.png" class="logo" alt="">
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <img src="img/menu.png" id="menu-btn" alt="">
+        </div>
+    </nav>
+    Navigation ends -->
+
+    <!-- header section starts  -->
+
+    <header>
+
+    <style>
+        #menu-barr {
+            font-size: 24px; /* حجم الأيقونة */
+            color: #333; /* لون الأيقونة */
+            cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الأيقونة */
+        }
+    </style>
+
+
+
+
+
+
+
+
+        <div class="header-2">
+    <i  id="menu-barr" class="fas fa-code"></i> 
+            <a href="#" id="class="logo">
+         
+            CV </a>
+            <br>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+
+        </div>
+
+        <div class="header-3">
+
+            <div id="menu-bar" class="fas  fa-bars  "></div>
+
+            <nav class="navbar">
+                <a href="index.html">الصفحة الرئيسية </a>
+                <a href="cv.html">سيرتي الذاتية باختصار   </a>
+                <a href="Education.html">التعليم</a>
+                <a href="Experience.html">الخبرات</a>
+                <a href="Projects.html">مشاريعي</a>
+                <a href="Skills.html">المهارات</a>
+                   <a href="about.html">About Us</a>       
+                <a href="contact.html">التواصل</a>
+            </nav>
+
+
+
+
+
+ 
+            <style>
+            .profile-icon {
+            width: 50px; /* حجم الصورة */
+            height: 50px; /* حجم الصورة */
+            border-radius: 50%; /* لجعل الصورة دائرية */
+            object-fit: cover; /* لتغطية الصورة بالكامل */
+            border: 2px solid #ddd; /* إطار للصورة */
+            display: block; /* لجعل الصورة كتلة */
+            margin: 0 auto; /* لتوسيط الصورة */
+            }
+            </style>
+
+            <div class="icons">
+            
+         <a href="login.html"  > <img src="images/ala.jpg" alt="الصورة الشخصية مصغره" class="profile-icon">
+            
+</a>
+
+            
+
+
+
+
+
+         </div>
+        </div>
+
+    </header>
+
+
+
+    <style type="text/css">
+    a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    }
+    
+    #dataForm {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+    }
+    
+    #dataForm:hover {
+    transform: translateY(-5px);
+    }
+    
+    input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+    outline: none;
+    background: #333;
+    color: white;
+    transition: border-color 0.3s, background 0.3s;
+    }
+    
+    input:focus {
+    border-color: #ffcc00;
+    background: #444;
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.5);
+    }
+    
+    button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffcc00;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px 0;
+    }
+    
+    button:hover {
+    background-color: #ffc107;
+    transform: translateY(-3px);
+    }
+    
+    #logoutButton {
+    background-color: #f44336;
+    }
+    
+    #logoutButton:hover {
+    background-color: #e53935;
+    }
+    
+    #message {
+    margin-top: 20px;
+    color: #ffcc00;
+    }
+    </style>
+<body>
+<center><button id="viewButton" onclick="window.location.href='viewexpri.html'"> عرض الخبرات</button>
+<form id="dataForm">
+    <input type="text" id="dataInput1" placeholder="العنوان" required>
+    <input type="text" id="dataInput2" placeholder="التاريخ" required>
+    <input type="text" id="dataInput3" placeholder="الوصف" required>
+
+    <button type="submit">إرسال</button>
+    <button type="button" id="saveButton">حفظ في ملف</button>
+</form>
+<button type="button" id="logoutButton">تسجيل الخروج</button>
+<div id="message"></div>
+<script>
+    // تحميل البيانات من localStorage عند فتح الصفحة
+    let storedData = JSON.parse(localStorage.getItem('dataList')) || [];
+
+    const form = document.getElementById('dataForm');
+    const message = document.getElementById('message');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // منع إعادة تحميل الصفحة
+        
+        // جمع البيانات من الحقول
+        const data = [
+            document.getElementById('dataInput1').value,
+            document.getElementById('dataInput2').value,
+            document.getElementById('dataInput3').value,
+        ];
+
+        storedData.push(data); // إضافة البيانات الجديدة
+        localStorage.setItem('dataList', JSON.stringify(storedData)); // حفظ في localStorage
+
+        message.textContent = 'تم حفظ البيانات!';
+        form.reset(); // إعادة تعيين الحقول
+    });
+
+    document.getElementById('saveButton').addEventListener('click', function() {
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-'); // إنشاء توقيت
+        const filename = `dataexpir_${timestamp}.json`; // اسم الملف مع التوقيت
+        const blob = new Blob([JSON.stringify(storedData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename; // استخدام الاسم الجديد
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    });
+
+    // إزالة وظيفة تسجيل الخروج
+</script>
+
+
+<!-- يبدأ قسم التذييل من هنا -->
+<footer>
+    <div class="footer-col">
+        <h3>أفضل المنتجات</h3>
+        <li>إدارة السمعة</li>
+        <li>الأدوات الكهربائية</li>
+        <li>موقع مُدار</li>
+        <li>خدمة التسويق</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>الأدوات الكهربائية</h3>
+        <li>وظائف</li>
+        <li>خدمة التسويق</li>
+        <li>أفضل المنتجات</li>
+        <li>إدارة السمعة</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>الأدوات الكهربائية</h3>
+        <li>موقع مُدار</li>
+        <li>إدارة السمعة</li>
+        <li>أفضل المنتجات</li>
+        <li>خدمة التسويق</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>أدلة</h3>
+        <li>البحث</li>
+        <li>خبراء</li>
+        <li>موقع مُدار</li>
+        <li>خدمة التسويق</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>النشرة الإخبارية</h3>
+        <p>يمكنك الوثوق بنا. نحن نرسل عروض ترويجية فقط.</p>
+
+        <div class="subscribe">
+            <input type="email" placeholder="عنوان بريدك الإلكتروني">
+            <a href="#" class="yellow">اشترك</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>
+
+            حقوق الطباعة والنشر 2024 @ جميع الحقوق محفوظة|تم تصمسم هذه القالب بواسطة ALAOi
+       <a href="" target="_blank">ALAOi</a>
+        </p>
+        <div class="pro-links">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </div>
+</footer>
+
+    <!-- Footer section ends from here -->
+
+     <script src="js/html5shiv.min.js"></script>
+     <script src="js/respond.min.js"></script>
+     
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.js"></script>
+     <script src="js/script.js"></script>
+     <!--مكتبه خاصه بلانميشان -->
+     <script src="js/WOW.min.js"></script>
+     <script >new WOW().init();</script>
+     <!--مكتبه خاصه بلسكرول الذي على يمين الشاشه شىيط التمرير -->
+     <script src="js/jquery.nicescroll.min.js"></script>
+     
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+    <!-- Footer section ends from here -->
+
+    <script>
+        // Show menu links on burger click
+        $('#menu-btn').click(function() {
+            $('nav .navigation ul').addClass('active')
+        });
+
+        // Hide navbar on click function
+        $('#menu-close').click(function() {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>
