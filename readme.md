@@ -1,32 +1,16 @@
-### Education website for College & University
 .
-![Education website template](https://i.ibb.co/0Yr6dLg/education.png)
-.
-.
-This is a HTML5 Responsive site template suitable for Courses, colleges, Workshop, Lessons and university sites. In this educational website we have't used any framework, totally based on core languages like HTML & CSS.
+.قالب الصفحة الإلكترونية قالب شخصي مدونة شخصية
 .
 .
 .
-.
-### features
-- Valid and clean HTML5/CSS3 code
-- 5 different pages
-- Google Map
-- Free Fonts from Google Fonts
-- Free Icons from Font Awesome
-- Crossover Browsers Compatibility
-- Free Future Updates
-- etc
-.
-.
-.
-.
-.
+### المميزات
+- كود HTML5/CSS3 صالح ونظيف
+- 5 صفحات مختلفة
 
-[![Nihory - Portfolio site template live demo](https://i.ibb.co/vwN8cgW/live-demo.png)](https://education-atulcodex.netlify.app/)
-.
-.
-.
-.
-.
-[![Atul - Buy Me A Coffee](https://i.ibb.co/7rR9S4L/buy-me-a-coffee.png)](https://www.buymeacoffee.com/atulcodex)
+- خطوط مجانية من Google Fonts
+- أيقونات مجانية من Font Awesome
+- توافق مع المتصفحات
+- تحديثات مستقبلية مجانية
+- -عباره عن سيرة ذاتيه ونبذه تعريفية فقط
+- - يحتوي على الاعمال الشخصية والبيانات والاهتمامات
+)
